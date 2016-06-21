@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CommandLine;
-
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Options.cs" company="FreeToDev">Mike Fourie</copyright>
+// --------------------------------------------------------------------------------------------------------------------
 namespace GitMonitor.Export
 {
-    class Options
+    using CommandLine;
+
+    public class Options
     {
         [Option('s', "service-endpoint", HelpText = "The service endpoint to execute rest calls against", Required = true)]
         public string ServiceEndPoint { get; set; }

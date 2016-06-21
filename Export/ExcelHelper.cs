@@ -59,6 +59,15 @@ namespace GitMonitor.Export
             worksheet.Cells[row, column] = content;
         }
 
+        public void Write(object[,] data, int rows, int columns)
+        {
+            var startCell = (Range)worksheet.Cells[2, 1];
+            var endCell = (Range)worksheet.Cells[rows, columns];
+            var writeRange = worksheet.Range[startCell, endCell];
+            writeRange.Value2 = data;
+        }
+       
+
         public int GetLastRow(string file)
         {
             return worksheet.Cells.Find(

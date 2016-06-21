@@ -1,17 +1,19 @@
-﻿using System.Reflection;
-using System.Runtime.CompilerServices;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="AssemblyInfo.cs" company="FreeToDev">Mike Fourie</copyright>
+// --------------------------------------------------------------------------------------------------------------------
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Export")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("GitMonitor Export")]
+[assembly: AssemblyDescription("Commandline Export Utility for Git Commits")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Export")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("FreeToDev")]
+[assembly: AssemblyProduct("GitMonitor Export")]
+[assembly: AssemblyCopyright("Copyright © 2016")]
+[assembly: AssemblyTrademark("Mike Fourie")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
