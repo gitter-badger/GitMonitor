@@ -1,4 +1,6 @@
 # GitMonitor
+
+[![Join the chat at https://gitter.im/mikefourie/GitMonitor](https://badges.gitter.im/mikefourie/GitMonitor.svg)](https://gitter.im/mikefourie/GitMonitor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Monitor and query changes across a collection of Git repositories
 
 The introductory blog post can be found here - https://mikefourie.wordpress.com/2016/04/24/gitmonitor/
